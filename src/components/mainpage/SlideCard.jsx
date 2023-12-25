@@ -1,5 +1,7 @@
 import React from 'react'
 import Sdata from './Sdata'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 const SlideCard = () => {
@@ -12,7 +14,7 @@ const SlideCard = () => {
         autoplay:true,
         appendDots: (dots) =>{
             return <ul style={{margin :"0px"}}>{dots}</ul>
-        }
+        },
       }
   return (
     <>
