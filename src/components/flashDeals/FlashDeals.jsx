@@ -1,15 +1,17 @@
 import React from 'react'
+import FlashCard from './FlashCard'
 
 const FlashDeals = () => {
   return (
     <>
     <section className="flash background">
-        <di className="container f_flex">
+        <div className="container">
             <di className="heading f_flex">
             <i className="fa fa-bolt"></i>
             <h1>Flash Deals</h1>
         </di>
-        </di>
+        <FlashCard />
+        </div>
     </section>
     </>
   )
